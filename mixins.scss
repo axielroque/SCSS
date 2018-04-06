@@ -91,7 +91,7 @@
   background: url($img-uri) no-repeat unquote($background-top) unquote($background-left);
   background-size: cover;
 }
-@include cover-background('../images/imagen.jpg');
+@include cover-background('../ruta-de-la-imagen');
 
 
 // linear gradiente whit image
@@ -102,9 +102,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-@include linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6),'../img/bg-about.jpg');
+@include linear-gradient(rgba(#000,0.75), rgba(#000,0.75),'../ruta-de-la-imagen');
 
-background-blend-mode: overlay;
+//background-blend-mode: overlay;
 
 //Media Query
 
